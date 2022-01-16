@@ -1,0 +1,16 @@
+@import 'nav.scss';
+@import 'footer.scss';
+
+.container{
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    .pitanje{
+        border: 3px solid lightgray;
+        padding: 5px;
+    }
+    .card-header{
+        background: $btn;
+        color: white;
+    }
+}

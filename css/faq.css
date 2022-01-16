@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: white;
+}
+
+nav {
+  background: #272727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: #00d4ff;
+  padding-left: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00d4ff;
+  font-size: 20px;
+}
+
+nav button {
+  margin-right: 40px;
+  width: 180px;
+  border: none;
+  height: 40px;
+  background: transparent;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+}
+
+nav button a {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: white;
+}
+
+nav {
+  background: #272727;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: #00d4ff;
+  padding-left: 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00d4ff;
+  font-size: 20px;
+}
+
+nav button {
+  margin-right: 40px;
+  width: 180px;
+  border: none;
+  height: 40px;
+  background: transparent;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+}
+
+nav button a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  min-height: 400px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer div {
+  min-height: 450px;
+  padding: 100px;
+}
+
+footer div ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer div .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 50px;
+}
+
+.container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.container .pitanje {
+  border: 3px solid lightgray;
+  padding: 5px;
+}
+
+.container .card-header {
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  color: white;
+}
+/*# sourceMappingURL=faq.css.map */
