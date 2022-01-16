@@ -1,0 +1,425 @@
+
+// @import 'nav.scss';
+// @import 'footer.scss';
+
+$text: #00d4ff;
+$btn: linear-gradient(90deg, rgb(39, 118, 209) 18%, rgba(0,212,255,1) 75%);
+$bg: rgb(39, 39, 39);
+$imgBg: #1452e6;
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background: white;
+}
+
+nav{
+    background: $bg;
+    height: 80px;
+    text-align: center;
+    .logo{
+        color: $text;
+        font-weight: bold;
+        padding-top: 10px;
+        a{
+            text-decoration: none;
+            color: $text;
+        }
+    }
+    ul{
+        li{
+            display: inline-block;
+            padding: 20px;
+            a{
+                text-decoration: none;
+                color: $text;
+                font-size: 20px;
+            }
+        }
+    }
+    button{
+        margin-top: 10px;
+        width: 180px;
+        border: none;
+        height: 40px;
+        color: white;
+        border-radius: 50px;
+        position: relative;
+        background: $btn;
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+main{
+    .hero{
+        height: 95vh;
+        img{
+            height: 100%;
+        }
+        .heroText{
+            padding-left: 50px;
+            padding-top: 10%;
+            z-index: 999;
+            span{
+                color: $text;
+            }
+            h2{
+            font-size: 80px;
+            color: $text;
+            }
+            p{
+                width: 65%;
+                font-size: 20px;
+            }
+            button{
+                height: 50px;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                border-radius: 30px;
+                background: $bg;
+                i{
+                    padding: 10px;
+                    background: rgba(0,212,255,1);
+                    border-radius: 50%;
+                    color: black;
+                }
+                a{
+                    text-decoration: none;
+                    padding: 10px;
+                    span{
+                        padding-left: 10px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .usluge{
+        margin-top: 150px;
+        background: $btn;
+        color: white;
+        text-align: center;
+        div{
+            padding: 50px;
+            h2{
+                font-weight: bold;
+            }
+            i{
+                font-size: 80px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+    .karte{
+        h1{
+            color: $text;
+            text-align: center;
+            font-weight: bold;
+        }
+        hr{
+            background: $text;
+            border: 1px solid $text;
+            width: 80%;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+        margin-top: 100px;
+        .container{
+            width: 80%;
+            background: rgb(255,255,255);
+            background: $bg;
+            border-radius: 50px;
+            
+            .karta{
+                height: 50%;
+                height: 300px;
+                border-radius: 30px;
+                color: $text;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    width: 60px;
+                    border-radius: 50%;
+                }
+                p{
+                    padding: 30px;
+
+                }
+                &:hover{
+                    cursor: pointer;
+                    transition: 0.21s ease-in;
+                    transform: scale(1.1);
+                    background: linear-gradient(90deg, rgb(39, 118, 209) 18%, rgba(0,212,255,1) 75%);
+                    color: $bg;
+                }
+            }
+        }
+    }
+
+    .faq{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .pitanja{
+            color: gray;
+            h2{
+                color: $text;
+            }
+            .pitanje{
+                border: 3px solid lightgray;
+                width: 100%;
+                border-radius: 20px;
+                padding: 10px;
+                h3{
+                    width: 90%;
+                }
+                i{
+                    width: 10%;
+                }
+                div{
+                    h3{
+                        display: none;
+                    }
+                }
+                &:hover{
+                    cursor: pointer;
+                    div{
+                       h3{
+                           display: flex;
+                           width: 100%;
+                           color: black;
+                       }
+                    }
+                }
+            }
+        }
+    }
+    .prijava{
+        margin: auto;
+        width: 80%;
+        min-height: 300px;
+        background: $btn;
+        margin-top: 40px;
+        text-align: center;
+        color: white;
+        border-radius: 50px;
+        h2{
+            font-weight: bold;
+            padding: 50px;
+        }
+        p{
+            width: 100%;
+            font-size: 18px;
+        }
+        button{
+            width: 250px;
+            height: 40px;
+            background: $bg;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .posetioci{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        img{
+            border-radius: 50%;
+        }
+        
+        div{
+            min-height: 300px;
+            flex-basis: 33%;
+            border: 5px solid lightgray;
+            padding: 20px;
+            border-radius: 20px;
+            background: white;
+            transition: 0.21s ease-in;
+            &:hover{
+               transform: scale(1.2); 
+               z-index: 99;
+            }
+        }
+        .sredina{
+            transform: scale(1.2);
+        }
+    }
+    .galerija{
+        width: 80%;
+        margin: auto;
+        padding: 0 4px;
+        margin-bottom: 150px;
+        text-align: center;
+        .kolona{
+            flex: 33%;
+            padding: 0 4px;
+        }
+        img{
+            margin-top: 8px;
+        }
+    }
+    .tabela{
+        margin: auto;
+        margin-bottom: 150px;
+        table{
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            th{
+                color: $text;
+            }
+        }
+    }
+    .cenovnik{
+        margin: auto;
+        width: 70%;
+        margin-bottom: 150px;
+        background: $btn;
+        padding: 50px;
+        border-radius: 50px;
+        position: relative;
+        i{
+            position: absolute;
+            top: -50px;
+            left: -80px;
+            color: $text;
+            font-size: 200px;
+        }
+        img{
+            border-radius: 50px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+                font-weight: bold;
+                color: white;
+            }
+            button{
+                width: 300px;
+                height: 50px;
+                border: none;
+                background: $bg;
+                border-radius: 30px;
+                a{
+                    text-decoration: none;
+                    color: $text;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    min-height: 400px;
+    background: $btn;
+    color: white;
+    div{
+        min-height: 450px;
+        padding: 100px;
+        ul{
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+            }
+        }
+        .social{
+            display: flex;
+            font-size: 50px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .hero{
+        img{
+            position: absolute;
+            right: 0;
+            opacity: 0.2;
+        }
+    }
+
+}
+@media only screen and (max-width: 700px) {
+    nav{
+        ul{
+            display: none;
+        }
+    }
+
+    main{
+        .hero{
+            .heroText{
+                padding: 50px;
+                h2{
+                    font-size: 30px;
+                }
+            }
+            img{
+                display: none;
+            }
+        }
+
+        .faq{
+            img{
+                width: 100%;
+            }
+            margin: auto;
+        }
+        .posetioci{
+            div{
+                flex-basis: 100%;
+            }
+            .sredina{
+                transform: scale(1.0) !important;
+            }
+        }
+        .cenovnik{
+            i{
+                display: none;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        .galerija{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+

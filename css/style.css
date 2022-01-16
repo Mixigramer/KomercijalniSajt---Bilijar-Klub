@@ -1,0 +1,495 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: white;
+}
+
+nav {
+  background: #272727;
+  height: 80px;
+  text-align: center;
+}
+
+nav .logo {
+  color: #00d4ff;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+nav .logo a {
+  text-decoration: none;
+  color: #00d4ff;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #00d4ff;
+  font-size: 20px;
+}
+
+nav button {
+  margin-top: 10px;
+  width: 180px;
+  border: none;
+  height: 40px;
+  color: white;
+  border-radius: 50px;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+}
+
+nav button a {
+  color: white;
+  text-decoration: none;
+}
+
+main .hero {
+  height: 95vh;
+}
+
+main .hero img {
+  height: 100%;
+}
+
+main .hero .heroText {
+  padding-left: 50px;
+  padding-top: 10%;
+  z-index: 999;
+}
+
+main .hero .heroText span {
+  color: #00d4ff;
+}
+
+main .hero .heroText h2 {
+  font-size: 80px;
+  color: #00d4ff;
+}
+
+main .hero .heroText p {
+  width: 65%;
+  font-size: 20px;
+}
+
+main .hero .heroText button {
+  height: 50px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 30px;
+  background: #272727;
+}
+
+main .hero .heroText button i {
+  padding: 10px;
+  background: #00d4ff;
+  border-radius: 50%;
+  color: black;
+}
+
+main .hero .heroText button a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+main .hero .heroText button a span {
+  padding-left: 10px;
+  color: white;
+}
+
+main .usluge {
+  margin-top: 150px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  color: white;
+  text-align: center;
+}
+
+main .usluge div {
+  padding: 50px;
+}
+
+main .usluge div h2 {
+  font-weight: bold;
+}
+
+main .usluge div i {
+  font-size: 80px;
+}
+
+main .usluge div p {
+  font-size: 18px;
+}
+
+main .karte {
+  margin-top: 100px;
+}
+
+main .karte h1 {
+  color: #00d4ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+main .karte hr {
+  background: #00d4ff;
+  border: 1px solid #00d4ff;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+main .karte .container {
+  width: 80%;
+  background: white;
+  background: #272727;
+  border-radius: 50px;
+}
+
+main .karte .container .karta {
+  height: 50%;
+  height: 300px;
+  border-radius: 30px;
+  color: #00d4ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .karte .container .karta img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+main .karte .container .karta p {
+  padding: 30px;
+}
+
+main .karte .container .karta:hover {
+  cursor: pointer;
+  -webkit-transition: 0.21s ease-in;
+  transition: 0.21s ease-in;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  color: #272727;
+}
+
+main .faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .faq .pitanja {
+  color: gray;
+}
+
+main .faq .pitanja h2 {
+  color: #00d4ff;
+}
+
+main .faq .pitanja .pitanje {
+  border: 3px solid lightgray;
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+main .faq .pitanja .pitanje h3 {
+  width: 90%;
+}
+
+main .faq .pitanja .pitanje i {
+  width: 10%;
+}
+
+main .faq .pitanja .pitanje div h3 {
+  display: none;
+}
+
+main .faq .pitanja .pitanje:hover {
+  cursor: pointer;
+}
+
+main .faq .pitanja .pitanje:hover div h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  color: black;
+}
+
+main .prijava {
+  margin: auto;
+  width: 80%;
+  min-height: 300px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+}
+
+main .prijava h2 {
+  font-weight: bold;
+  padding: 50px;
+}
+
+main .prijava p {
+  width: 100%;
+  font-size: 18px;
+}
+
+main .prijava button {
+  width: 250px;
+  height: 40px;
+  background: #272727;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+main .prijava button a {
+  color: white;
+  text-decoration: none;
+}
+
+main .posetioci {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+main .posetioci img {
+  border-radius: 50%;
+}
+
+main .posetioci div {
+  min-height: 300px;
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  border: 5px solid lightgray;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  -webkit-transition: 0.21s ease-in;
+  transition: 0.21s ease-in;
+}
+
+main .posetioci div:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 99;
+}
+
+main .posetioci .sredina {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main .galerija {
+  width: 80%;
+  margin: auto;
+  padding: 0 4px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+main .galerija .kolona {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+  padding: 0 4px;
+}
+
+main .galerija img {
+  margin-top: 8px;
+}
+
+main .tabela {
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+main .tabela table {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+main .tabela table th {
+  color: #00d4ff;
+}
+
+main .cenovnik {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 150px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  padding: 50px;
+  border-radius: 50px;
+  position: relative;
+}
+
+main .cenovnik i {
+  position: absolute;
+  top: -50px;
+  left: -80px;
+  color: #00d4ff;
+  font-size: 200px;
+}
+
+main .cenovnik img {
+  border-radius: 50px;
+}
+
+main .cenovnik div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .cenovnik div h2 {
+  font-weight: bold;
+  color: white;
+}
+
+main .cenovnik div button {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background: #272727;
+  border-radius: 30px;
+}
+
+main .cenovnik div button a {
+  text-decoration: none;
+  color: #00d4ff;
+}
+
+footer {
+  width: 100%;
+  min-height: 400px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, #2776d1), color-stop(75%, #00d4ff));
+  background: linear-gradient(90deg, #2776d1 18%, #00d4ff 75%);
+  color: white;
+}
+
+footer div {
+  min-height: 450px;
+  padding: 100px;
+}
+
+footer div ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+footer div .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero img {
+    position: absolute;
+    right: 0;
+    opacity: 0.2;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+  main .hero .heroText {
+    padding: 50px;
+  }
+  main .hero .heroText h2 {
+    font-size: 30px;
+  }
+  main .hero img {
+    display: none;
+  }
+  main .faq {
+    margin: auto;
+  }
+  main .faq img {
+    width: 100%;
+  }
+  main .posetioci div {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  main .posetioci .sredina {
+    -webkit-transform: scale(1) !important;
+            transform: scale(1) !important;
+  }
+  main .cenovnik i {
+    display: none;
+  }
+  main .cenovnik img {
+    width: 100%;
+  }
+  main .galerija img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
